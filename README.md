@@ -69,4 +69,4 @@ O script `generate_large_pdf.py` utiliza a biblioteca `fpdf` para criar um PDF c
 
 ## Contato
 
-Para qualquer dúvida ou sugestão, entre em contato com [Seu Nome] através de [seu email].
+Para qualquer dúvida ou sugestão, entre em contato com Daniel Tsuneo através de tsuneokomido@gmail.com.
