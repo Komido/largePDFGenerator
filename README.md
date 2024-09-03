@@ -34,6 +34,12 @@ pip install fpdf PyPDF2 Pillow
      ```bash
      source venv/bin/activate
      ```
+   - Verifique se o ambiente virtual foi ativado corretamente, pois o nome do ambiente virtual aparecerá no início da linha de comando. Por exemplo:
+     ```bash
+     (venv) user@hostname:/caminho/para/Projetos/Python/pdfGenerate$
+     ```
+     ou ue o camando `which python3` e `which pip` para verificar se o Python e o pip estão apontando para o ambiente virtual.
+     
 
 4. **Instale as Dependências Necessárias:**
    ```bash
@@ -50,6 +56,12 @@ pip install fpdf PyPDF2 Pillow
      - `--file_name`: Nome do arquivo PDF a ser gerado. (padrão: `default_large_file.pdf`)
      - `--size_mb`: Tamanho alvo do arquivo PDF em MB. (padrão: `10`)
      - `--image_path`: Caminho da imagem a ser adicionada ao PDF. (padrão: `sample_image.png`)
+
+6. **Desative o Ambiente Virtual:**
+   - Quando terminar de usar o script, você pode desativar o ambiente virtual:
+     ```bash
+     deactivate
+     ```
 
 ## O que o Script Faz
 
