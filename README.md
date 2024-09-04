@@ -45,8 +45,13 @@ pip install fpdf PyPDF2 Pillow
    ```bash
    pip install fpdf PyPDF2 Pillow
    ```
+5.  **Salve as Dependências em um Arquivo**:
+   - Para facilitar a instalação das dependências no futuro ou em outros ambientes, você pode salvar as dependências instaladas em um arquivo requirements.txt:
+   ```bash
+   pip freeze > requirements.txt
+   ```
 
-5. **Execute o Script para Gerar o PDF:**
+6. **Execute o Script para Gerar o PDF:**
    - Use o seguinte comando para executar o script Python, especificando o tamanho desejado do PDF em megabytes (MB):
    ```bash
    python generate_large_pdf.py --file_name nome_do_arquivo.pdf --size_mb 100 --image_path caminho_da_imagem.png
@@ -57,7 +62,7 @@ pip install fpdf PyPDF2 Pillow
      - `--size_mb`: Tamanho alvo do arquivo PDF em MB. (padrão: `10`)
      - `--image_path`: Caminho da imagem a ser adicionada ao PDF. (padrão: `sample_image.png`)
 
-6. **Desative o Ambiente Virtual:**
+7. **Desative o Ambiente Virtual:**
    - Quando terminar de usar o script, você pode desativar o ambiente virtual:
      ```bash
      deactivate
